@@ -1,0 +1,8 @@
+[package]
+name = "jnative"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+classer = "0.1.0"
+inkwell = { version = "0.5.0", features = ["llvm18-0"] }
